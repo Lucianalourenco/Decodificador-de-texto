@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/reset.css">
+    <title>Decodificador</title>
+
+</head>
+<body>
+    <header>
+            <img class="logo"src="imagens/logoalura.png" alt="Logo da Alura">
+    </header>
+    <main class="main">
+        <section>
+            <textarea class="input-texto" cols="40" rows="5" placeholder="Digite seu texto..."></textarea>
+        <div>
+            <h6 class="instrucao">Apenas letras minúsculas e sem acento.</h6>
+        </div>    
+        <div class="botoes">
+            
+            <button class="encriptar" onclick="btnEncriptar()">Criptografar</button>
+            <button class="desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+            </div>
+        </section>
+        <section>
+            <textarea class="mensagem" cols="15" rows="6"  placeholder="       Nenhuma mensagem encontrada.           Digite seu texto para  ser criptografado ou           descriptografado"></textarea>
+    
+        <div class="copy">
+            <button class="copiar" onclick="btnCopiar()">Copiar</button>
+        </div>    
+        </section>
+    </main>
+    <footer class="redes-sociais"> 
+        <h6 class="nome"> &copy; Luciana Lourenço - 2022</h6>
+        <a href="https://www.linkedin.com/in/lucianalourenco2021" target="_blank"><img src="imagens/linkedin.png" alt="icone do Linkedin"></a>
+        <a href="https://www.github.com/lucianalourenco" target="_blank"><img src="imagens/logotipo-do-github.png" alt="icone do GitHub"></a>  
+    </footer>
+    </body>
+<script src="script.js"></script>
+</html>
